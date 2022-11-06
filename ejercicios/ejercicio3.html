@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario 3</title>
+</head>
+<body>
+   <table>
+        <tbody>
+            <tr style="background-color:rgb(93, 231, 167) ;">
+                <th colspan="2"><h3>Registro de trabajadores</h3></th>
+                
+            </tr>
+        
+    
+            <tr>
+                <td><label for="">Rut: </label></td>
+                <td><input type="text" 
+                    name="nombre" 
+                    placeholder="Sin puntos ni guion" />
+                </td>
+        
+            </tr>
+            <tr>
+                <td><label for="">Nombre: </label></td>
+                <td><input type="text" 
+                    name="nombre" 
+                    placeholder="" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Apellido Paterno: </td>
+                <td><input type="text" 
+                    name="Apellido" 
+                    placeholder="" /></td>
+            </tr>
+            <tr>
+                <td><label for="">Apellido Materno: </td>
+                <td><input type="text" 
+                    name="Apellido" 
+                    placeholder="" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Sexo: </label></td>
+                <td><label> <input type="radio" name="Masculino" />Masculino</label>              
+                    <label><input type="radio" name="Femenino"/>Femenino</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Nivel de estudio: </label></td>
+                <td><label> <input type="checkbox" name="No tiene" />No tiene </label>                   
+                    <br>
+                    <label><input type="checkbox" name="Tecnico" />Tecnico</label> 
+                    <br>
+                    <label><input type="checkbox" name="Universitario" />Universitario</label>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td><option value="Rancagua" >Ciudad de nacimiento: </option></td>
+                <td><select name="Rancagua" >                        
+                    <option value="Rancagua" >Rancagua</option>              
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="adjunto">Curriculum: </label></td>
+                <td><input 
+                    type="file" 
+                    name="adjunto"
+                    id="adjunto" 
+                    accept=".pdf,.jpg,.png" 
+                    multiple 
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="adjunto">Foto: </label></td>
+                <td><input 
+                    type="file" 
+                    name="adjunto"
+                    id="adjunto" 
+                    accept=".pdf,.jpg,.png" 
+                    multiple 
+                    />
+                </td>
+            </tr>
+            <tr style="background-color:rgb(93, 231, 167) ;">
+                <th colspan="2"><h3>
+                    <input 
+                    type="submit"
+                    name="enviardatos"
+                    value="Registrar trabajador"
+                    /></h3></th>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+     <footer>
+        <h3>
+            &copy; copyrigth: Oscar Ceron;</h3>
+    </footer>
+    <a href="../">Regresar al inicio</a>
+</body>
+</html>
